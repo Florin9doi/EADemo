@@ -60,7 +60,7 @@
     
     // Override point for customization after app launch    
 	
-	[window addSubview:[navigationController view]];
+    window.rootViewController = navigationController;
     [window makeKeyAndVisible];
 }
 
