@@ -15,13 +15,8 @@
 		3087049811912FC700E6E8E0 /* EADSessionTransfer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3087049211912FC700E6E8E0 /* EADSessionTransfer.xib */; };
 		3087049911912FC700E6E8E0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3087049411912FC700E6E8E0 /* MainWindow.xib */; };
 		3087049A11912FC700E6E8E0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3087049611912FC700E6E8E0 /* RootViewController.xib */; };
-		309BCA6D11DB0A0E000B4574 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6611DB0A0E000B4574 /* Icon-72.png */; };
-		309BCA6E11DB0A0E000B4574 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6711DB0A0E000B4574 /* Icon-Small-50.png */; };
-		309BCA6F11DB0A0E000B4574 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6811DB0A0E000B4574 /* Icon-Small.png */; };
-		309BCA7011DB0A0E000B4574 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6911DB0A0E000B4574 /* Icon-Small@2x.png */; };
-		309BCA7111DB0A0E000B4574 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6A11DB0A0E000B4574 /* Icon.png */; };
-		309BCA7211DB0A0E000B4574 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309BCA6B11DB0A0E000B4574 /* Icon@2x.png */; };
 		30B3DE3311ED1F7700C12546 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 30B3DE3211ED1F7700C12546 /* iTunesArtwork */; };
+		4EA838061C131D1C00EAA23E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA838051C131D1C00EAA23E /* Images.xcassets */; };
 		C952826C0FB397D500E6CF4C /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C952826B0FB397D500E6CF4C /* ExternalAccessory.framework */; };
 		C986345C0FB66A2200D461F2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C986345A0FB66A2200D461F2 /* RootViewController.m */; };
 		C986345F0FB66A3500D461F2 /* EADemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C986345E0FB66A3500D461F2 /* EADemoAppDelegate.m */; };
@@ -40,13 +35,8 @@
 		3087049311912FC700E6E8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EADSessionTransfer.xib; sourceTree = "<group>"; };
 		3087049511912FC700E6E8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		3087049711912FC700E6E8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		309BCA6611DB0A0E000B4574 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		309BCA6711DB0A0E000B4574 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		309BCA6811DB0A0E000B4574 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		309BCA6911DB0A0E000B4574 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		309BCA6A11DB0A0E000B4574 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		309BCA6B11DB0A0E000B4574 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		30B3DE3211ED1F7700C12546 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		4EA838051C131D1C00EAA23E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EADemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* EADemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EADemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C952826B0FB397D500E6CF4C /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		C98634590FB66A2200D461F2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -118,12 +108,7 @@
 		309BCA6511DB0A0E000B4574 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				309BCA6611DB0A0E000B4574 /* Icon-72.png */,
-				309BCA6711DB0A0E000B4574 /* Icon-Small-50.png */,
-				309BCA6811DB0A0E000B4574 /* Icon-Small.png */,
-				309BCA6911DB0A0E000B4574 /* Icon-Small@2x.png */,
-				309BCA6A11DB0A0E000B4574 /* Icon.png */,
-				309BCA6B11DB0A0E000B4574 /* Icon@2x.png */,
+				4EA838051C131D1C00EAA23E /* Images.xcassets */,
 				30B3DE3211ED1F7700C12546 /* iTunesArtwork */,
 			);
 			path = Resources;
@@ -197,12 +182,7 @@
 				3087049811912FC700E6E8E0 /* EADSessionTransfer.xib in Resources */,
 				3087049911912FC700E6E8E0 /* MainWindow.xib in Resources */,
 				3087049A11912FC700E6E8E0 /* RootViewController.xib in Resources */,
-				309BCA6D11DB0A0E000B4574 /* Icon-72.png in Resources */,
-				309BCA6E11DB0A0E000B4574 /* Icon-Small-50.png in Resources */,
-				309BCA6F11DB0A0E000B4574 /* Icon-Small.png in Resources */,
-				309BCA7011DB0A0E000B4574 /* Icon-Small@2x.png in Resources */,
-				309BCA7111DB0A0E000B4574 /* Icon.png in Resources */,
-				309BCA7211DB0A0E000B4574 /* Icon@2x.png in Resources */,
+				4EA838061C131D1C00EAA23E /* Images.xcassets in Resources */,
 				30B3DE3311ED1F7700C12546 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +236,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -272,6 +254,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

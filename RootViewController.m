@@ -65,6 +65,7 @@
     _noExternalAccessoriesPosterView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [_noExternalAccessoriesPosterView setBackgroundColor:[UIColor whiteColor]];
     _noExternalAccessoriesLabelView = [[UILabel alloc] initWithFrame:CGRectMake(60, 170, 240, 50)];
+    [_noExternalAccessoriesLabelView setCenter:_noExternalAccessoriesPosterView.center];
     [_noExternalAccessoriesLabelView setText:@"No Accessories Connected"];
     [_noExternalAccessoriesPosterView addSubview:_noExternalAccessoriesLabelView];
     [[self view] addSubview:_noExternalAccessoriesPosterView];
